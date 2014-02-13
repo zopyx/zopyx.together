@@ -10,5 +10,6 @@ zopyx.together.egg-info/not-zip-safe
 zopyx.together.egg-info/requires.txt
 zopyx.together.egg-info/top_level.txt
 zopyx/together/__init__.py
+zopyx/together/browser/__init__.py
 zopyx/together/together/__init__.py
 zopyx/together/together/tests.py

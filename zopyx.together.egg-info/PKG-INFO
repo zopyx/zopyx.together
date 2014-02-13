@@ -2,9 +2,9 @@ Metadata-Version: 1.1
 Name: zopyx.together
 Version: 0.1
 Summary: Plone integration with together.js
-Home-page: http://svn.plone.org/svn/collective/
-Author: UNKNOWN
-Author-email: UNKNOWN
+Home-page: http://github.com/zopyx/zopyx.together
+Author: Andreas Jung
+Author-email: info@zopyx.com
 License: GPL
 Description: Introduction
         ============
@@ -21,6 +21,7 @@ Description: Introduction
         
         - Initial release
         
+Keywords: Plone TogetherJS
 Platform: UNKNOWN
 Classifier: Framework :: Plone
 Classifier: Programming Language :: Python

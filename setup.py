@@ -14,10 +14,10 @@ setup(name='zopyx.together',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='Plone TogetherJS',
+      author='Andreas Jung',
+      author_email='info@zopyx.com',
+      url='http://github.com/zopyx/zopyx.together',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['zopyx', 'zopyx.together'],
@@ -29,7 +29,6 @@ setup(name='zopyx.together',
       ],
       entry_points="""
       # -*- Entry points: -*-
-
       [z3c.autoinclude.plugin]
       target = plone
       """,
