@@ -6,7 +6,7 @@ version = '0.1'
 setup(name='zopyx.together',
       version=version,
       description="Plone integration with together.js",
-      long_description=open("README.txt").read(),
+      long_description=open("README.rst").read(),
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
