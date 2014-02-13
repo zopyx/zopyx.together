@@ -6,10 +6,7 @@ version = '0.1'
 setup(name='zopyx.together',
       version=version,
       description="Plone integration with together.js",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
+      long_description=open("README.txt").read()
       classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
