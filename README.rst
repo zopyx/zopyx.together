@@ -25,8 +25,8 @@ Changes
 Author
 ------
 
-ZOPYX
-Andreas Jung
-info@zopyx.com
-www.zopyx.com
+| ZOPYX
+| Andreas Jung
+| info@zopyx.com
+| www.zopyx.com
 
