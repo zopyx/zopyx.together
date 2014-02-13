@@ -22,6 +22,7 @@ setup(name='zopyx.together',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'zope.i18nmessageid',
       ],
       entry_points="""
       # -*- Entry points: -*-
