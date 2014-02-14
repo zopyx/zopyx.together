@@ -13,6 +13,11 @@ configuration, re-run buildout and activate ``zopyx.together`` within Plone.
 A new button ``Start TogetherJS`` will appear below the content headline.
 Clicking the button will activate the TogetherJS functionality.
 
+Requirements
+------------
+
+* Plone 4.x (tested with Plone 4.3 only)
+
 Changes
 -------
 
