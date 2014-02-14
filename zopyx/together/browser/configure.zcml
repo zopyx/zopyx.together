@@ -10,4 +10,11 @@
      permission="zope2.View"
   />
   
+  <include package="plone.app.registry" />
+  <browser:page
+      name="together-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class="zopyx.together.browser.controlpanel.TogetherControlPanel"
+      permission="cmf.ManagePortal"
+  />
 </configure>

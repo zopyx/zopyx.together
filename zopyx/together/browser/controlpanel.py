@@ -6,7 +6,7 @@ from zopyx.together.interfaces import ITogetherSettings
 from zopyx.together import MessageFactory as _
 
 
-class ETogetherSettingsEditForm(controlpanel.RegistryEditForm):
+class TogetherSettingsEditForm(controlpanel.RegistryEditForm):
 
     schema = ITogetherSettings
     label = _(u'zopyx.together settings')
@@ -19,5 +19,5 @@ class ETogetherSettingsEditForm(controlpanel.RegistryEditForm):
         super(TogetherSettingsEditForm, self).updateWidgets()
 
 
-class TogetherSettingsControlPanel(controlpanel.ControlPanelFormWrapper):
+class TogetherControlPanel(controlpanel.ControlPanelFormWrapper):
     form = TogetherSettingsEditForm
